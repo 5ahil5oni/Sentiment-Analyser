@@ -25,14 +25,22 @@ Features
 Project Structure
 
 Sentiment Analyser/
+
 ├── app/
+
 │ ├── init.py
 │ └── models.py # SentimentAnalyzer class and model logic
+
 ├── frontend_app.py # Streamlit UI application
+
 ├── main.py # FastAPI backend application
+
 ├── requirements.txt # Python dependencies
+
 ├── README.md # This file
+
 ├── .gitignore # Files to ignore for Git
+
 └── venv/ # Python virtual environment (example)
 
 
