@@ -1,0 +1,61 @@
+```gitignore
+# .gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+.venv/
+env/
+.env # If you store secrets or local configs here, good to ignore
+
+# IDE / Editor specific
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Hugging Face Cache (usually global, but if any local model downloads happen here)
+.cache/
+huggingface_hub/ # If it creates local dirs with this name
+
+# Streamlit specific (if any local config/cache)
+.streamlit/
+
+# Compiled files
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Notebook checkpoints
+.ipynb_checkpoints
+
+# Log files
+*.log
+logs/
+
+# Data files (if you have large datasets you don't want to commit)
+# data/
+# *.csv # Be specific if you have CSVs you *do* want to commit
+
+# Test outputs
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
